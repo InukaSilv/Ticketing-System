@@ -17,7 +17,7 @@ public class Customer implements Runnable{
                     String msg = "Customer purchased ticket #" + Ticket;
                     Logger.log(msg);
                 } else {
-                    Logger.log("Customer attempted to purchase a ticket, none were available.")
+                    Logger.log("Customer attempted to purchase a ticket, none were available.");
                 }
             }
         } catch (InterruptedException e) {
