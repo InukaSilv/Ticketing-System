@@ -21,7 +21,16 @@ public class TicketingSystemCLI {
         }
         config.saveConfiguration();
 
+        Ticketpool ticketpool = new Ticketpool(config.getMaxTicketCapacity());
+        System.out.println("System configured!. Run command 'start' to begin and 'stop' to exit.");
 
+        while (true) {
+            System.out.println("Enter command (start/stop) : ");
+            String cmd = scanner.nextLine();
 
+            if ("start".equalsIgnoreCase(cmd)) {
+
+            }
+        }
     }
 }
