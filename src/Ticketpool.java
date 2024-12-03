@@ -13,7 +13,7 @@ public class Ticketpool {
             Tickets.add(ticketID);
             return true;
         }
-        return false;
+        return false; // Indicate that adding a ticket was unsuccessful
     }
 
     public synchronized Integer retrieveTicket() {
@@ -22,5 +22,9 @@ public class Ticketpool {
 
     public int getTicketCount() {
         return Tickets.size();
+    }
+
+    public synchronized boolean isFull() {
+        return Tickets.size() >= maxCapacity;
     }
 }

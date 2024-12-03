@@ -1,14 +1,13 @@
 import java.io.*;
-import java.util.*;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Configuration  {
+public class Configuration {
     private int totalTickets;
     private int ticketReleaseRate;
     private int customerBuyRate;
     private int maxTicketCapacity;
-    private static final String CONFIG_FILE = "config.txt";
+    private static final String CONFIG_FILE = "config.json";
 
     public Configuration(int totalTickets, int ticketReleaseRate, int customerBuyRate, int maxTicketCapacity) {
         this.totalTickets = totalTickets;
@@ -20,48 +19,44 @@ public class Configuration  {
     public int getTotalTickets() {
         return totalTickets;
     }
+
     public int getTicketReleaseRate() {
         return ticketReleaseRate;
     }
+
     public int getCustomerBuyRate() {
         return customerBuyRate;
     }
+
     public int getMaxTicketCapacity() {
         return maxTicketCapacity;
     }
 
+    public void incrementTotalTickets(int increment) {
+        this.totalTickets += increment;
+    }
+
     public void saveConfiguration() {
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(CONFIG_FILE))) {
-            writer.write("totalTickets=" + totalTickets);
-            writer.newLine();
-            writer.write("ticketReleaseRate=" + ticketReleaseRate);
-            writer.newLine();
-            writer.write("customerBuyRate=" + customerBuyRate);
-            writer.newLine();
-            writer.write("maxTicketCapacity=" + maxTicketCapacity);
-            writer.newLine();
-            System.out.println("Configuration successfully saved!");
+            String json = String.format("{\"totalTickets\":%d,\"ticketReleaseRate\":%d,\"customerBuyRate\":%d,\"maxTicketCapacity\":%d}",
+                    totalTickets, ticketReleaseRate, customerBuyRate, maxTicketCapacity);
+            writer.write(json);
+            System.out.println("Configuration successfully saved to JSON-like format!");
         } catch (IOException e) {
             System.err.println("Failed to save configuration: " + e.getMessage());
         }
     }
 
-    public static Configuration loadconfiguration() {
+    public static Configuration loadConfiguration() {
         File file = new File(CONFIG_FILE);
         if (!file.exists()) {
             System.out.println("No Configuration found. Starting new sequence!");
             return null;
         }
 
-        Map<String, Integer> configMap = new HashMap<>();
         try (BufferedReader reader = new BufferedReader(new FileReader(file))) {
-            String line;
-            while ((line = reader.readLine()) != null) {
-                String[] parts = line.split("=");
-                if (parts.length == 2) {
-                    configMap.put(parts[0], Integer.parseInt(parts[1]));
-                }
-            }
+            String json = reader.readLine();
+            Map<String, Integer> configMap = parseJson(json);
             return new Configuration(
                     configMap.getOrDefault("totalTickets", 0),
                     configMap.getOrDefault("ticketReleaseRate", 1),
@@ -74,11 +69,22 @@ public class Configuration  {
         return null;
     }
 
+    private static Map<String, Integer> parseJson(String json) {
+        Map<String, Integer> map = new HashMap<>();
+        json = json.replaceAll("[{}\"]", ""); // Remove braces and quotes
+        String[] entries = json.split(",");
+        for (String entry : entries) {
+            String[] keyValue = entry.split(":");
+            map.put(keyValue[0], Integer.parseInt(keyValue[1]));
+        }
+        return map;
+    }
+
     public void printConfig() {
-        System.out.println("Current Configuration : ");
-        System.out.println("Total tickets : " + totalTickets);
-        System.out.println("Ticket release rate : " + ticketReleaseRate);
-        System.out.println("Customer buy rate : " + customerBuyRate);
-        System.out.println("Max ticket capacity : " + maxTicketCapacity);
+        System.out.println("Current Configuration:");
+        System.out.println("Total tickets: " + totalTickets);
+        System.out.println("Ticket release rate: " + ticketReleaseRate);
+        System.out.println("Customer buy rate: " + customerBuyRate);
+        System.out.println("Max ticket capacity: " + maxTicketCapacity);
     }
 }
