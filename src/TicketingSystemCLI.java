@@ -53,53 +53,47 @@ public class TicketingSystemCLI {
     }
 
     private static void startTicketingSystem(Ticketpool ticketpool, Configuration config, Scanner scanner) {
-        Thread vendorThread = new Thread(new Vendor(ticketpool, config.getTicketReleaseRate(), config.getTotalTickets()));
-        Thread[] customerThread = {null}; // Wrapping for restartable logic
+        int currentTicketID = 1;
+        Vendor vendor = new Vendor(ticketpool, config.getTicketReleaseRate(), currentTicketID, config.getTotalTickets());
+        Thread vendorThread = new Thread(vendor);
+        Thread customerThread = startCustomerThread(ticketpool, config);
 
         vendorThread.start();
-        customerThread[0] = startCustomerThread(ticketpool, config);
 
-        System.out.println("Ticketing system started! Vendor releasing tickets.");
+        System.out.println("Ticketing system started! Vendor releasing tickets...");
 
-        try {
-            vendorThread.join(); // Wait for vendor thread to finish
-        } catch (InterruptedException e) {
-            Thread.currentThread().interrupt();
-            System.out.println("Vendor thread interrupted.");
-        }
-
-        // Loop for prompting ticket additions and restarting vendors
         while (true) {
+            try {
+                vendorThread.join(); // Wait for vendor thread to finish
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+                System.out.println("Vendor thread interrupted.");
+            }
+
             synchronized (ticketpool) {
                 if (ticketpool.getTicketCount() == 0 && !vendorThread.isAlive()) {
                     System.out.println("All tickets sold! Do you want to add more tickets? (Y/N): ");
                     String addChoice = scanner.nextLine().toLowerCase();
+
                     if ("y".equals(addChoice)) {
-                        // Calculate correct available capacity
-                        int availableCapacity = config.getMaxTicketCapacity() - config.getTotalTickets();
+                        int availableCapacity = config.getMaxTicketCapacity() - ticketpool.getTicketCount();
                         System.out.print("Enter additional tickets to add (maximum " + availableCapacity + "): ");
                         int newTickets = validateInput(scanner);
 
                         if (newTickets <= availableCapacity) {
                             config.incrementTotalTickets(newTickets);
 
-                            // Restart vendor to release new tickets
-                            Thread newVendorThread = new Thread(new Vendor(ticketpool, config.getTicketReleaseRate(), newTickets));
-                            newVendorThread.start();
-
-                            try {
-                                newVendorThread.join(); // Wait for new vendor thread to finish
-                            } catch (InterruptedException e) {
-                                Thread.currentThread().interrupt();
-                                System.out.println("New vendor thread interrupted.");
+                            synchronized (vendor) {
+                                vendor.addTickets(newTickets); // Update total tickets in the existing vendor thread
                             }
 
-                            // Restart customer thread if needed
-                            if (customerThread[0] == null || !customerThread[0].isAlive()) {
-                                customerThread[0] = startCustomerThread(ticketpool, config);
+                            // Restart vendor thread if needed
+                            if (!vendorThread.isAlive()) {
+                                vendorThread = new Thread(vendor);
+                                vendorThread.start();
                             }
 
-                            System.out.println("Vendor added tickets. Resuming customer purchases.");
+                            System.out.println("Vendor notified to release new tickets.");
                         } else {
                             System.out.println("Cannot add tickets - Exceeds max capacity.");
                         }
@@ -112,7 +106,20 @@ public class TicketingSystemCLI {
                 }
             }
         }
+
+        if (customerThread.isAlive()) {
+            customerThread.interrupt();
+            try {
+                customerThread.join();
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+                System.out.println("Customer thread interrupted.");
+            }
+        }
+
+        System.out.println("Exiting Ticketing System...");
     }
+
 
     private static Thread startCustomerThread(Ticketpool ticketpool, Configuration config) {
         Thread customerThread = new Thread(new Customer(ticketpool, config.getCustomerBuyRate()));

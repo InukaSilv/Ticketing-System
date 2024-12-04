@@ -1,42 +1,48 @@
 public class Vendor implements Runnable {
     private final Ticketpool ticketpool;
     private final int ticketReleaseRate;
-    private final int totalTickets;
-    private int ticketID = 1;
+    private int totalTicketsToRelease; // Tracks how many tickets remain to release
+    private int ticketID; // Starting ticket ID
 
-    public Vendor(Ticketpool ticketpool, int ticketReleaseRate, int totalTickets) {
+    public Vendor(Ticketpool ticketpool, int ticketReleaseRate, int startTicketID, int totalTicketsToRelease) {
         this.ticketpool = ticketpool;
         this.ticketReleaseRate = ticketReleaseRate;
-        this.totalTickets = totalTickets;
+        this.ticketID = startTicketID;
+        this.totalTicketsToRelease = totalTicketsToRelease;
+    }
+
+    public synchronized void addTickets(int additionalTickets) {
+        this.totalTicketsToRelease += additionalTickets; // Increment the number of tickets to release
+        notify(); // Notify the thread to resume if it was waiting
     }
 
     @Override
     public void run() {
         try {
-            while (ticketID <= totalTickets) {
+            while (totalTicketsToRelease > 0) {
                 synchronized (ticketpool) {
                     while (ticketpool.isFull()) {
-                        Logger.log("Vendor waiting - Ticket pool is full.");
-                        ticketpool.wait(); // Wait for capacity to free up
+                        System.out.println("Vendor waiting - Ticket pool is full.");
+                        ticketpool.wait(); // Wait for capacity
                     }
                 }
 
-                // Add ticket
+                // Simulate releasing a ticket
                 Thread.sleep(ticketReleaseRate * 1000L);
-                if (ticketpool.addTicket(ticketID)) {
-                    Logger.log("Vendor added ticket #" + ticketID);
-                    ticketID++;
-                }
 
-                // Notify waiting customers
                 synchronized (ticketpool) {
-                    ticketpool.notifyAll();
+                    if (ticketpool.addTicket(ticketID)) {
+                        System.out.println("Vendor added ticket #" + ticketID);
+                        ticketID++;
+                        totalTicketsToRelease--;
+                        ticketpool.notifyAll(); // Notify customers
+                    }
                 }
             }
-            Logger.log("Vendor thread exiting - Total tickets released.");
+            System.out.println("Vendor thread exiting - Total tickets released.");
         } catch (InterruptedException e) {
             Thread.currentThread().interrupt();
-            Logger.log("Vendor thread interrupted.");
+            System.out.println("Vendor thread interrupted.");
         }
     }
 }

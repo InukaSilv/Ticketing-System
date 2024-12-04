@@ -1,3 +1,4 @@
+
 public class Customer implements Runnable {
     private final Ticketpool ticketpool;
     private final int customerBuyRate;
