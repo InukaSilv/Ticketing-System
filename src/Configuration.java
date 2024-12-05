@@ -41,7 +41,7 @@ public class Configuration {
             String json = String.format("{\"totalTickets\":%d,\"ticketReleaseRate\":%d,\"customerBuyRate\":%d,\"maxTicketCapacity\":%d}",
                     totalTickets, ticketReleaseRate, customerBuyRate, maxTicketCapacity);
             writer.write(json);
-            System.out.println("Configuration successfully saved to JSON-like format!");
+            System.out.println("Configuration successfully saved to JSON format!");
         } catch (IOException e) {
             System.err.println("Failed to save configuration: " + e.getMessage());
         }

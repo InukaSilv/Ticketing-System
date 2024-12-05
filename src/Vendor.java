@@ -13,7 +13,7 @@ public class Vendor implements Runnable {
 
     public synchronized void addTickets(int additionalTickets) {
         this.totalTicketsToRelease += additionalTickets; // Increment the number of tickets to release
-        notify(); // Notify the thread to resume if it was waiting
+        notify();
     }
 
     @Override

@@ -2,7 +2,6 @@
 public class Customer implements Runnable {
     private final Ticketpool ticketpool;
     private final int customerBuyRate;
-    private boolean ticketsAvailable = false; // Tracks if tickets have been available
 
     public Customer(Ticketpool ticketpool, int customerBuyRate) {
         this.ticketpool = ticketpool;
