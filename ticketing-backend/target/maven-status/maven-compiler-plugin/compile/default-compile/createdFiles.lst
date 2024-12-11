@@ -1,0 +1,15 @@
+com\ticketing\system\ticketing_backend\service\Vendor.class
+com\ticketing\system\ticketing_backend\service\SimulationService.class
+com\ticketing\system\ticketing_backend\model\User.class
+com\ticketing\system\ticketing_backend\service\TicketService.class
+com\ticketing\system\ticketing_backend\config\WebSocketConfig.class
+com\ticketing\system\ticketing_backend\service\Customer.class
+com\ticketing\system\ticketing_backend\model\Ticket.class
+com\ticketing\system\ticketing_backend\controller\UserController.class
+com\ticketing\system\ticketing_backend\model\Event.class
+com\ticketing\system\ticketing_backend\TicketingBackendApplication.class
+com\ticketing\system\ticketing_backend\repository\UserRepository.class
+com\ticketing\system\ticketing_backend\controller\SimulationController.class
+com\ticketing\system\ticketing_backend\controller\EventController.class
+com\ticketing\system\ticketing_backend\controller\TicketController.class
+com\ticketing\system\ticketing_backend\repository\TicketRepository.class
