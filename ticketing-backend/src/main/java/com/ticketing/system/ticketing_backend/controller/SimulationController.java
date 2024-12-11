@@ -43,10 +43,9 @@ public class SimulationController {
     @GetMapping("/logs/{eventId}")
     public ResponseEntity<List<String>> getEventLogs(@PathVariable Long eventId) {
         Queue<String> logs = simulationService.getEventLogs(eventId);
-        if (logs == null || logs.isEmpty()) {
-            return ResponseEntity.status(HttpStatus.NOT_FOUND).body(List.of("No logs available.")); // Check for empty logs
+        if (logs == null) {
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).body(List.of("No logs available."));
         }
-        return ResponseEntity.ok(new ArrayList<>(logs));
+        return ResponseEntity.ok(new ArrayList<>(logs)); // Convert Queue to List
     }
-
 }

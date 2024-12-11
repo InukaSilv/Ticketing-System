@@ -1,0 +1,863 @@
+[2024-12-03 08:47:37] Ticketing System initiated!
+[2024-12-03 08:47:38] Customer attempted to purchase a ticket, none were available.
+[2024-12-03 08:47:38] Vendor added ticket #1
+[2024-12-03 08:47:39] Customer purchased ticket #1
+[2024-12-03 08:47:39] Vendor added ticket #2
+[2024-12-03 08:47:40] Customer purchased ticket #2
+[2024-12-03 08:47:40] Vendor added ticket #3
+[2024-12-03 08:47:41] Customer purchased ticket #3
+[2024-12-03 08:47:41] Vendor added ticket #4
+[2024-12-03 08:47:42] Customer purchased ticket #4
+[2024-12-03 08:47:42] Vendor added ticket #5
+[2024-12-03 08:47:43] Customer purchased ticket #5
+[2024-12-03 08:47:43] Vendor added ticket #6
+[2024-12-03 08:47:44] Customer purchased ticket #6
+[2024-12-03 08:47:44] Vendor added ticket #7
+[2024-12-03 08:47:45] Customer purchased ticket #7
+[2024-12-03 08:47:45] Vendor added ticket #8
+[2024-12-03 08:47:46] Customer purchased ticket #8
+[2024-12-03 08:47:46] Vendor added ticket #9
+[2024-12-03 08:47:47] Customer purchased ticket #9
+[2024-12-03 08:47:47] Vendor added ticket #10
+[2024-12-03 08:47:48] Customer purchased ticket #10
+[2024-12-03 08:47:48] Vendor added ticket #11
+[2024-12-03 08:47:49] Customer purchased ticket #11
+[2024-12-03 08:47:49] Vendor added ticket #12
+[2024-12-03 08:47:50] Customer purchased ticket #12
+[2024-12-03 08:47:50] Vendor added ticket #13
+[2024-12-03 08:47:51] Customer purchased ticket #13
+[2024-12-03 08:47:51] Vendor added ticket #14
+[2024-12-03 08:47:52] Customer purchased ticket #14
+[2024-12-03 08:47:52] Vendor added ticket #15
+[2024-12-03 08:47:53] Customer purchased ticket #15
+[2024-12-03 08:47:53] Vendor added ticket #16
+[2024-12-03 08:47:54] Customer purchased ticket #16
+[2024-12-03 08:47:54] Vendor added ticket #17
+[2024-12-03 08:47:55] Customer purchased ticket #17
+[2024-12-03 08:47:55] Vendor added ticket #18
+[2024-12-03 08:47:56] Customer purchased ticket #18
+[2024-12-03 08:47:56] Vendor added ticket #19
+[2024-12-03 08:47:57] Customer purchased ticket #19
+[2024-12-03 08:47:57] Vendor added ticket #20
+[2024-12-03 08:47:58] Customer purchased ticket #20
+[2024-12-03 08:47:58] Vendor added ticket #21
+[2024-12-03 08:47:59] Customer purchased ticket #21
+[2024-12-03 08:47:59] Vendor added ticket #22
+[2024-12-03 08:48:00] Customer purchased ticket #22
+[2024-12-03 08:48:00] Vendor added ticket #23
+[2024-12-03 08:48:01] Customer purchased ticket #23
+[2024-12-03 08:48:01] Vendor added ticket #24
+[2024-12-03 08:48:02] Customer purchased ticket #24
+[2024-12-03 08:48:02] Vendor added ticket #25
+[2024-12-03 09:02:59] Ticketing System initiated!
+[2024-12-03 09:03:00] Customer purchased ticket #1
+[2024-12-03 09:03:00] Vendor added ticket #1
+[2024-12-03 09:03:01] Customer attempted to purchase a ticket, none were available.
+[2024-12-03 09:03:01] Vendor added ticket #2
+[2024-12-03 09:03:02] Customer purchased ticket #2
+[2024-12-03 09:03:02] Vendor added ticket #3
+[2024-12-03 09:03:03] Customer purchased ticket #3
+[2024-12-03 09:03:03] Vendor added ticket #4
+[2024-12-03 09:03:04] Customer purchased ticket #4
+[2024-12-03 09:03:04] Vendor added ticket #5
+[2024-12-03 09:03:05] Customer purchased ticket #5
+[2024-12-03 09:03:05] Vendor added ticket #6
+[2024-12-03 09:03:06] Customer purchased ticket #6
+[2024-12-03 09:03:06] Vendor added ticket #7
+[2024-12-03 09:03:07] Customer purchased ticket #7
+[2024-12-03 09:03:07] Vendor added ticket #8
+[2024-12-03 09:03:08] Customer purchased ticket #8
+[2024-12-03 09:03:08] Vendor added ticket #9
+[2024-12-03 09:03:09] Customer purchased ticket #9
+[2024-12-03 09:03:09] Vendor added ticket #10
+[2024-12-03 09:03:09] Vendor thread exiting - Total tickets released.
+[2024-12-03 09:03:10] Customer purchased ticket #10
+[2024-12-03 09:03:11] Customer attempted to purchase a ticket, none were available.
+[2024-12-03 09:03:12] Customer attempted to purchase a ticket, none were available.
+[2024-12-03 09:03:13] Customer attempted to purchase a ticket, none were available.
+[2024-12-03 09:03:14] Customer attempted to purchase a ticket, none were available.
+[2024-12-03 09:03:15] Customer attempted to purchase a ticket, none were available.
+[2024-12-03 09:03:16] Customer attempted to purchase a ticket, none were available.
+[2024-12-03 09:03:17] Customer attempted to purchase a ticket, none were available.
+[2024-12-03 09:03:18] Customer attempted to purchase a ticket, none were available.
+[2024-12-03 09:09:55] Customer waiting for tickets...
+[2024-12-03 09:09:55] Ticketing System initiated!
+[2024-12-03 09:09:57] Vendor added ticket #1
+[2024-12-03 09:09:58] Vendor added ticket #2
+[2024-12-03 09:09:58] Customer purchased ticket #1
+[2024-12-03 09:09:59] Vendor added ticket #3
+[2024-12-03 09:09:59] Customer purchased ticket #2
+[2024-12-03 09:10:00] Vendor added ticket #4
+[2024-12-03 09:10:00] Customer purchased ticket #3
+[2024-12-03 09:10:01] Vendor added ticket #5
+[2024-12-03 09:10:01] Customer purchased ticket #4
+[2024-12-03 09:10:02] Vendor added ticket #6
+[2024-12-03 09:10:02] Customer purchased ticket #5
+[2024-12-03 09:10:03] Vendor added ticket #7
+[2024-12-03 09:10:03] Customer purchased ticket #6
+[2024-12-03 09:10:04] Vendor added ticket #8
+[2024-12-03 09:10:04] Customer purchased ticket #7
+[2024-12-03 09:10:05] Vendor added ticket #9
+[2024-12-03 09:10:05] Customer purchased ticket #8
+[2024-12-03 09:10:06] Vendor added ticket #10
+[2024-12-03 09:10:06] Vendor thread exiting - Total tickets released.
+[2024-12-03 09:10:06] Customer purchased ticket #9
+[2024-12-03 09:10:07] Customer purchased ticket #10
+[2024-12-03 09:10:07] Customer waiting for tickets...
+[2024-12-03 09:14:19] Ticketing System initiated!
+[2024-12-03 09:14:19] Customer waiting for tickets...
+[2024-12-03 09:14:20] Vendor added ticket #1
+[2024-12-03 09:14:21] Vendor added ticket #2
+[2024-12-03 09:14:21] Customer purchased ticket #1
+[2024-12-03 09:14:22] Vendor added ticket #3
+[2024-12-03 09:14:22] Customer purchased ticket #2
+[2024-12-03 09:14:23] Customer purchased ticket #3
+[2024-12-03 09:14:23] Vendor added ticket #4
+[2024-12-03 09:14:24] Customer purchased ticket #4
+[2024-12-03 09:14:24] Customer waiting for tickets...
+[2024-12-03 09:14:24] Vendor added ticket #5
+[2024-12-03 09:14:25] Vendor added ticket #6
+[2024-12-03 09:14:25] Customer purchased ticket #5
+[2024-12-03 09:14:26] Customer purchased ticket #6
+[2024-12-03 09:14:26] Vendor added ticket #7
+[2024-12-03 09:14:27] Customer purchased ticket #7
+[2024-12-03 09:14:27] Customer waiting for tickets...
+[2024-12-03 09:14:27] Vendor added ticket #8
+[2024-12-03 09:14:28] Vendor added ticket #9
+[2024-12-03 09:14:28] Customer purchased ticket #8
+[2024-12-03 09:14:29] Customer purchased ticket #9
+[2024-12-03 09:14:29] Vendor added ticket #10
+[2024-12-03 09:14:29] Vendor thread exiting - Total tickets released.
+[2024-12-03 09:14:30] Customer purchased ticket #10
+[2024-12-03 09:14:30] Customer waiting for tickets...
+[2024-12-03 09:14:41] Stopping ticketing system...
+[2024-12-03 09:14:41] Customer thread interrupted.
+[2024-12-03 09:14:49] Ticketing System initiated!
+[2024-12-03 09:14:49] Customer waiting for tickets...
+[2024-12-03 09:14:50] Vendor added ticket #1
+[2024-12-03 09:14:51] Customer purchased ticket #1
+[2024-12-03 09:14:51] Vendor added ticket #2
+[2024-12-03 09:14:52] Vendor added ticket #3
+[2024-12-03 09:14:52] Customer purchased ticket #2
+[2024-12-03 09:14:53] Vendor added ticket #4
+[2024-12-03 09:14:53] Customer purchased ticket #3
+[2024-12-03 09:14:54] Customer purchased ticket #4
+[2024-12-03 09:14:54] Vendor added ticket #5
+[2024-12-03 09:14:55] Vendor added ticket #6
+[2024-12-03 09:14:55] Customer purchased ticket #5
+[2024-12-03 09:14:56] Vendor added ticket #7
+[2024-12-03 09:14:56] Customer purchased ticket #6
+[2024-12-03 09:14:57] Vendor added ticket #8
+[2024-12-03 09:14:57] Customer purchased ticket #7
+[2024-12-03 09:14:58] Vendor added ticket #9
+[2024-12-03 09:14:58] Customer purchased ticket #8
+[2024-12-03 09:14:59] Vendor added ticket #10
+[2024-12-03 09:14:59] Vendor thread exiting - Total tickets released.
+[2024-12-03 09:14:59] Customer purchased ticket #9
+[2024-12-03 09:15:00] Customer purchased ticket #10
+[2024-12-03 09:15:00] Customer waiting for tickets...
+[2024-12-03 09:18:34] Ticketing System initiated!
+[2024-12-03 09:18:34] Customer waiting for tickets...
+[2024-12-03 09:18:35] Vendor added ticket #1
+[2024-12-03 09:18:36] Vendor added ticket #2
+[2024-12-03 09:18:36] Customer purchased ticket #1
+[2024-12-03 09:18:37] Customer purchased ticket #2
+[2024-12-03 09:18:37] Vendor added ticket #3
+[2024-12-03 09:18:38] Customer purchased ticket #3
+[2024-12-03 09:18:38] Customer waiting for tickets...
+[2024-12-03 09:18:38] Vendor added ticket #4
+[2024-12-03 09:18:39] Customer purchased ticket #4
+[2024-12-03 09:18:39] Vendor added ticket #5
+[2024-12-03 09:18:40] Customer purchased ticket #5
+[2024-12-03 09:18:40] Vendor added ticket #6
+[2024-12-03 09:18:41] Vendor added ticket #7
+[2024-12-03 09:18:41] Customer purchased ticket #6
+[2024-12-03 09:18:42] Vendor added ticket #8
+[2024-12-03 09:18:42] Customer purchased ticket #7
+[2024-12-03 09:18:43] Vendor added ticket #9
+[2024-12-03 09:18:43] Customer purchased ticket #8
+[2024-12-03 09:18:44] Vendor added ticket #10
+[2024-12-03 09:18:44] Vendor thread exiting - Total tickets released.
+[2024-12-03 09:18:44] Customer purchased ticket #9
+[2024-12-03 09:18:45] Customer purchased ticket #10
+[2024-12-03 09:18:45] Customer waiting for tickets...
+[2024-12-03 09:25:43] Ticketing System initiated!
+[2024-12-03 09:25:44] Vendor added ticket #1
+[2024-12-03 09:25:45] Vendor added ticket #2
+[2024-12-03 09:25:45] Customer purchased ticket #1
+[2024-12-03 09:25:46] Vendor added ticket #3
+[2024-12-03 09:25:46] Customer purchased ticket #2
+[2024-12-03 09:25:47] Vendor added ticket #4
+[2024-12-03 09:25:47] Customer purchased ticket #3
+[2024-12-03 09:25:48] Vendor added ticket #5
+[2024-12-03 09:25:48] Customer purchased ticket #4
+[2024-12-03 09:25:49] Vendor added ticket #6
+[2024-12-03 09:25:49] Customer purchased ticket #5
+[2024-12-03 09:25:50] Vendor added ticket #7
+[2024-12-03 09:25:50] Customer purchased ticket #6
+[2024-12-03 09:25:51] Vendor added ticket #8
+[2024-12-03 09:25:51] Customer purchased ticket #7
+[2024-12-03 09:25:52] Vendor added ticket #9
+[2024-12-03 09:25:52] Customer purchased ticket #8
+[2024-12-03 09:25:53] Vendor added ticket #10
+[2024-12-03 09:25:53] Vendor thread exiting - Total tickets released.
+[2024-12-03 09:25:53] Customer purchased ticket #9
+[2024-12-03 09:25:54] Customer purchased ticket #10
+[2024-12-03 09:25:54] Customer waiting for tickets...
+[2024-12-03 09:26:48] Ticketing System initiated!
+[2024-12-03 09:26:49] Vendor added ticket #1
+[2024-12-03 09:26:50] Vendor added ticket #2
+[2024-12-03 09:26:50] Customer purchased ticket #1
+[2024-12-03 09:26:51] Customer purchased ticket #2
+[2024-12-03 09:26:51] Vendor added ticket #3
+[2024-12-03 09:26:52] Customer purchased ticket #3
+[2024-12-03 09:26:52] Customer waiting for tickets...
+[2024-12-03 09:26:52] Vendor added ticket #4
+[2024-12-03 09:26:53] Customer purchased ticket #4
+[2024-12-03 09:26:53] Vendor added ticket #5
+[2024-12-03 09:26:54] Vendor added ticket #6
+[2024-12-03 09:26:54] Customer purchased ticket #5
+[2024-12-03 09:26:55] Vendor added ticket #7
+[2024-12-03 09:26:55] Customer purchased ticket #6
+[2024-12-03 09:26:56] Vendor added ticket #8
+[2024-12-03 09:26:56] Customer purchased ticket #7
+[2024-12-03 09:26:57] Customer purchased ticket #8
+[2024-12-03 09:26:57] Vendor added ticket #9
+[2024-12-03 09:26:58] Customer purchased ticket #9
+[2024-12-03 09:26:58] Customer waiting for tickets...
+[2024-12-03 09:26:58] Vendor added ticket #10
+[2024-12-03 09:26:58] Vendor thread exiting - Total tickets released.
+[2024-12-03 09:26:59] Customer purchased ticket #10
+[2024-12-03 09:26:59] Customer waiting for tickets...
+[2024-12-03 09:31:32] Ticketing System initiated!
+[2024-12-03 09:31:33] Vendor added ticket #1
+[2024-12-03 09:31:34] Vendor added ticket #2
+[2024-12-03 09:31:34] Customer purchased ticket #1
+[2024-12-03 09:31:35] Customer purchased ticket #2
+[2024-12-03 09:31:35] Vendor added ticket #3
+[2024-12-03 09:31:36] Customer purchased ticket #3
+[2024-12-03 09:31:36] Customer waiting for tickets...
+[2024-12-03 09:31:36] Vendor added ticket #4
+[2024-12-03 09:31:37] Customer purchased ticket #4
+[2024-12-03 09:31:37] Vendor added ticket #5
+[2024-12-03 09:31:38] Vendor added ticket #6
+[2024-12-03 09:31:38] Customer purchased ticket #5
+[2024-12-03 09:31:39] Vendor added ticket #7
+[2024-12-03 09:31:39] Customer purchased ticket #6
+[2024-12-03 09:31:40] Vendor added ticket #8
+[2024-12-03 09:31:40] Customer purchased ticket #7
+[2024-12-03 09:31:41] Vendor added ticket #9
+[2024-12-03 09:31:41] Customer purchased ticket #8
+[2024-12-03 09:31:42] Vendor added ticket #10
+[2024-12-03 09:31:42] Vendor thread exiting - Total tickets released.
+[2024-12-03 09:31:42] Customer purchased ticket #9
+[2024-12-03 09:31:43] Customer purchased ticket #10
+[2024-12-03 09:31:43] Customer waiting for tickets...
+[2024-12-03 09:32:06] Stopping ticketing system...
+[2024-12-03 09:32:06] Customer thread interrupted.
+[2024-12-03 09:32:11] Exiting Ticketing System...
+[2024-12-03 09:32:54] Ticketing System initiated!
+[2024-12-03 09:32:55] Vendor added ticket #1
+[2024-12-03 09:32:56] Vendor added ticket #2
+[2024-12-03 09:32:56] Customer purchased ticket #1
+[2024-12-03 09:32:57] Customer purchased ticket #2
+[2024-12-03 09:32:57] Vendor added ticket #3
+[2024-12-03 09:32:58] Vendor added ticket #4
+[2024-12-03 09:32:58] Customer purchased ticket #3
+[2024-12-03 09:32:59] Vendor added ticket #5
+[2024-12-03 09:32:59] Customer purchased ticket #4
+[2024-12-03 09:33:00] Vendor added ticket #6
+[2024-12-03 09:33:00] Customer purchased ticket #5
+[2024-12-03 09:33:01] Vendor added ticket #7
+[2024-12-03 09:33:01] Customer purchased ticket #6
+[2024-12-03 09:33:02] Vendor added ticket #8
+[2024-12-03 09:33:02] Customer purchased ticket #7
+[2024-12-03 09:33:03] Vendor added ticket #9
+[2024-12-03 09:33:03] Customer purchased ticket #8
+[2024-12-03 09:33:04] Vendor added ticket #10
+[2024-12-03 09:33:04] Vendor thread exiting - Total tickets released.
+[2024-12-03 09:33:04] Customer purchased ticket #9
+[2024-12-03 09:33:05] Customer purchased ticket #10
+[2024-12-03 09:33:05] Customer waiting for tickets...
+[2024-12-03 09:33:22] Added new ticket #11
+[2024-12-03 09:33:22] Added new ticket #12
+[2024-12-03 09:33:22] Added new ticket #13
+[2024-12-03 09:33:22] Added new ticket #14
+[2024-12-03 09:33:22] Added new ticket #15
+[2024-12-03 09:33:22] Added new ticket #16
+[2024-12-03 09:33:22] Added new ticket #17
+[2024-12-03 09:33:22] Added new ticket #18
+[2024-12-03 09:33:22] Added new ticket #19
+[2024-12-03 09:33:22] Added new ticket #20
+[2024-12-03 09:33:22] Added new ticket #21
+[2024-12-03 09:33:22] Added new ticket #22
+[2024-12-03 09:33:22] Added new ticket #23
+[2024-12-03 09:33:22] Added new ticket #24
+[2024-12-03 09:33:22] Added new ticket #25
+[2024-12-03 09:33:22] Added new ticket #26
+[2024-12-03 09:33:22] Added new ticket #27
+[2024-12-03 09:33:22] Added new ticket #28
+[2024-12-03 09:33:22] Added new ticket #29
+[2024-12-03 09:33:22] Added new ticket #30
+[2024-12-03 09:33:23] Customer purchased ticket #11
+[2024-12-03 09:33:24] Customer purchased ticket #12
+[2024-12-03 09:33:25] Customer purchased ticket #13
+[2024-12-03 09:33:26] Customer purchased ticket #14
+[2024-12-03 09:33:27] Customer purchased ticket #15
+[2024-12-03 09:33:28] Customer purchased ticket #16
+[2024-12-03 09:33:29] Customer purchased ticket #17
+[2024-12-03 09:33:30] Customer purchased ticket #18
+[2024-12-03 09:33:31] Customer purchased ticket #19
+[2024-12-03 09:33:32] Customer purchased ticket #20
+[2024-12-03 09:33:33] Customer purchased ticket #21
+[2024-12-03 09:33:34] Customer purchased ticket #22
+[2024-12-03 09:33:35] Customer purchased ticket #23
+[2024-12-03 09:33:36] Customer purchased ticket #24
+[2024-12-03 09:33:37] Customer purchased ticket #25
+[2024-12-03 09:33:38] Customer purchased ticket #26
+[2024-12-03 09:33:39] Customer purchased ticket #27
+[2024-12-03 09:33:40] Customer purchased ticket #28
+[2024-12-03 09:33:41] Customer purchased ticket #29
+[2024-12-03 09:33:42] Customer purchased ticket #30
+[2024-12-03 09:33:42] Customer waiting for tickets...
+[2024-12-03 09:33:48] No additional tickets will be added.
+[2024-12-03 09:33:52] Exiting Ticketing System...
+[2024-12-03 09:34:52] Ticketing System initiated!
+[2024-12-03 09:34:53] Vendor added ticket #1
+[2024-12-03 09:34:53] Vendor thread exiting - Total tickets released.
+[2024-12-03 09:34:54] Customer purchased ticket #1
+[2024-12-03 09:34:54] Customer waiting for tickets...
+[2024-12-03 09:35:02] No additional tickets will be added.
+[2024-12-03 09:35:09] Exiting Ticketing System...
+[2024-12-03 10:19:08] Ticketing System initiated!
+[2024-12-03 10:19:09] Vendor added ticket #1
+[2024-12-03 10:19:10] Vendor added ticket #2
+[2024-12-03 10:19:10] Customer purchased ticket #1
+[2024-12-03 10:19:11] Vendor added ticket #3
+[2024-12-03 10:19:11] Customer purchased ticket #2
+[2024-12-03 10:19:12] Customer purchased ticket #3
+[2024-12-03 10:19:12] Vendor added ticket #4
+[2024-12-03 10:19:13] Customer purchased ticket #4
+[2024-12-03 10:19:13] Vendor added ticket #5
+[2024-12-03 10:19:14] Customer purchased ticket #5
+[2024-12-03 10:19:14] Vendor added ticket #6
+[2024-12-03 10:19:15] Customer purchased ticket #6
+[2024-12-03 10:19:15] Vendor added ticket #7
+[2024-12-03 10:19:16] Customer purchased ticket #7
+[2024-12-03 10:19:16] Vendor added ticket #8
+[2024-12-03 10:19:17] Customer purchased ticket #8
+[2024-12-03 10:19:17] Vendor added ticket #9
+[2024-12-03 10:19:18] Vendor added ticket #10
+[2024-12-03 10:19:18] Vendor thread exiting - Total tickets released.
+[2024-12-03 10:19:18] Customer purchased ticket #9
+[2024-12-03 10:19:19] Customer purchased ticket #10
+[2024-12-03 10:19:19] Customer waiting for tickets...
+[2024-12-03 10:19:27] Stopping ticketing system...
+[2024-12-03 10:19:27] Customer thread interrupted.
+[2024-12-03 10:19:37] Ticketing System initiated!
+[2024-12-03 10:19:38] Vendor added ticket #1
+[2024-12-03 10:19:39] Vendor added ticket #2
+[2024-12-03 10:19:39] Customer purchased ticket #1
+[2024-12-03 10:19:40] Vendor added ticket #3
+[2024-12-03 10:19:40] Customer purchased ticket #2
+[2024-12-03 10:19:41] Vendor added ticket #4
+[2024-12-03 10:19:41] Customer purchased ticket #3
+[2024-12-03 10:19:42] Vendor added ticket #5
+[2024-12-03 10:19:42] Customer purchased ticket #4
+[2024-12-03 10:19:44] Vendor added ticket #6
+[2024-12-03 10:19:44] Customer purchased ticket #5
+[2024-12-03 10:19:45] Customer purchased ticket #6
+[2024-12-03 10:19:45] Vendor added ticket #7
+[2024-12-03 10:19:46] Vendor added ticket #8
+[2024-12-03 10:19:46] Customer purchased ticket #7
+[2024-12-03 10:19:47] Vendor added ticket #9
+[2024-12-03 10:19:47] Customer purchased ticket #8
+[2024-12-03 10:19:48] Customer purchased ticket #9
+[2024-12-03 10:19:48] Vendor added ticket #10
+[2024-12-03 10:19:48] Vendor thread exiting - Total tickets released.
+[2024-12-03 10:19:49] Customer purchased ticket #10
+[2024-12-03 10:19:49] Customer waiting for tickets...
+[2024-12-03 10:19:53] Stopping ticketing system...
+[2024-12-03 10:19:53] Customer thread interrupted.
+[2024-12-03 10:21:09] Exiting Ticketing System...
+[2024-12-03 10:21:32] Ticketing System initiated!
+[2024-12-03 10:21:33] Vendor added ticket #1
+[2024-12-03 10:21:35] Vendor added ticket #2
+[2024-12-03 10:21:35] Customer purchased ticket #1
+[2024-12-03 10:21:36] Customer purchased ticket #2
+[2024-12-03 10:21:36] Vendor added ticket #3
+[2024-12-03 10:21:37] Vendor added ticket #4
+[2024-12-03 10:21:37] Customer purchased ticket #3
+[2024-12-03 10:21:38] Vendor added ticket #5
+[2024-12-03 10:21:38] Customer purchased ticket #4
+[2024-12-03 10:21:39] Vendor added ticket #6
+[2024-12-03 10:21:39] Customer purchased ticket #5
+[2024-12-03 10:21:40] Vendor added ticket #7
+[2024-12-03 10:21:40] Customer purchased ticket #6
+[2024-12-03 10:21:41] Vendor added ticket #8
+[2024-12-03 10:21:41] Customer purchased ticket #7
+[2024-12-03 10:21:42] Vendor added ticket #9
+[2024-12-03 10:21:42] Customer purchased ticket #8
+[2024-12-03 10:21:43] Vendor added ticket #10
+[2024-12-03 10:21:43] Vendor thread exiting - Total tickets released.
+[2024-12-03 10:21:43] Customer purchased ticket #9
+[2024-12-03 10:21:44] Customer purchased ticket #10
+[2024-12-03 10:21:44] Customer waiting for tickets...
+[2024-12-03 10:22:10] Added new ticket #11
+[2024-12-03 10:22:10] Added new ticket #12
+[2024-12-03 10:22:10] Added new ticket #13
+[2024-12-03 10:22:10] Added new ticket #14
+[2024-12-03 10:22:10] Added new ticket #15
+[2024-12-03 10:22:10] Added new ticket #16
+[2024-12-03 10:22:10] Added new ticket #17
+[2024-12-03 10:22:10] Added new ticket #18
+[2024-12-03 10:22:10] Added new ticket #19
+[2024-12-03 10:22:10] Added new ticket #20
+[2024-12-03 10:22:11] Customer purchased ticket #11
+[2024-12-03 10:22:12] Customer purchased ticket #12
+[2024-12-03 10:22:13] Customer purchased ticket #13
+[2024-12-03 10:22:14] Customer purchased ticket #14
+[2024-12-03 10:22:15] Customer purchased ticket #15
+[2024-12-03 10:22:16] Customer purchased ticket #16
+[2024-12-03 10:22:17] Customer purchased ticket #17
+[2024-12-03 10:22:18] Customer purchased ticket #18
+[2024-12-03 10:22:19] Customer purchased ticket #19
+[2024-12-03 10:22:20] Customer purchased ticket #20
+[2024-12-03 10:22:20] Customer waiting for tickets...
+[2024-12-03 10:22:36] Stopping ticketing system...
+[2024-12-03 10:22:36] Customer thread interrupted.
+[2024-12-03 10:22:39] Exiting Ticketing System...
+[2024-12-03 10:42:57] Ticketing System initiated!
+[2024-12-03 10:42:58] Vendor added ticket #1
+[2024-12-03 10:42:59] Vendor added ticket #2
+[2024-12-03 10:42:59] Customer purchased ticket #1
+[2024-12-03 10:43:00] Customer purchased ticket #2
+[2024-12-03 10:43:00] Vendor added ticket #3
+[2024-12-03 10:43:01] Customer purchased ticket #3
+[2024-12-03 10:43:01] Vendor added ticket #4
+[2024-12-03 10:43:02] Customer purchased ticket #4
+[2024-12-03 10:43:02] Vendor added ticket #5
+[2024-12-03 10:43:03] Customer purchased ticket #5
+[2024-12-03 10:43:03] Vendor added ticket #6
+[2024-12-03 10:43:04] Customer purchased ticket #6
+[2024-12-03 10:43:04] Customer waiting for tickets...
+[2024-12-03 10:43:04] Vendor added ticket #7
+[2024-12-03 10:43:05] Vendor added ticket #8
+[2024-12-03 10:43:05] Customer purchased ticket #7
+[2024-12-03 10:43:06] Customer purchased ticket #8
+[2024-12-03 10:43:06] Vendor added ticket #9
+[2024-12-03 10:43:07] Vendor added ticket #10
+[2024-12-03 10:43:07] Customer purchased ticket #9
+[2024-12-03 10:43:08] Vendor added ticket #11
+[2024-12-03 10:43:08] Customer purchased ticket #10
+[2024-12-03 10:43:09] Customer purchased ticket #11
+[2024-12-03 10:43:09] Vendor added ticket #12
+[2024-12-03 10:43:10] Customer purchased ticket #12
+[2024-12-03 10:43:10] Vendor added ticket #13
+[2024-12-03 10:43:11] Customer purchased ticket #13
+[2024-12-03 10:43:11] Vendor added ticket #14
+[2024-12-03 10:43:12] Vendor added ticket #15
+[2024-12-03 10:43:12] Vendor thread exiting - Total tickets released.
+[2024-12-03 10:43:12] Customer purchased ticket #14
+[2024-12-03 10:43:13] Customer purchased ticket #15
+[2024-12-03 10:43:13] Customer waiting for tickets...
+[2024-12-03 10:47:24] Ticketing System initiated!
+[2024-12-03 10:47:25] Vendor added ticket #1
+[2024-12-03 10:47:26] Vendor added ticket #2
+[2024-12-03 10:47:26] Customer purchased ticket #1
+[2024-12-03 10:47:27] Vendor added ticket #3
+[2024-12-03 10:47:27] Customer purchased ticket #2
+[2024-12-03 10:47:28] Customer purchased ticket #3
+[2024-12-03 10:47:28] Vendor added ticket #4
+[2024-12-03 10:47:29] Customer purchased ticket #4
+[2024-12-03 10:47:29] Vendor added ticket #5
+[2024-12-03 10:47:30] Vendor added ticket #6
+[2024-12-03 10:47:30] Customer purchased ticket #5
+[2024-12-03 10:47:31] Customer purchased ticket #6
+[2024-12-03 10:47:31] Vendor added ticket #7
+[2024-12-03 10:47:32] Vendor added ticket #8
+[2024-12-03 10:47:32] Customer purchased ticket #7
+[2024-12-03 10:47:33] Customer purchased ticket #8
+[2024-12-03 10:47:33] Vendor added ticket #9
+[2024-12-03 10:47:34] Customer purchased ticket #9
+[2024-12-03 10:47:34] Vendor added ticket #10
+[2024-12-03 10:47:35] Customer purchased ticket #10
+[2024-12-03 10:47:35] Vendor added ticket #11
+[2024-12-03 10:47:36] Customer purchased ticket #11
+[2024-12-03 10:47:36] Vendor added ticket #12
+[2024-12-03 10:47:37] Customer purchased ticket #12
+[2024-12-03 10:47:37] Vendor added ticket #13
+[2024-12-03 10:47:38] Vendor added ticket #14
+[2024-12-03 10:47:38] Customer purchased ticket #13
+[2024-12-03 10:47:39] Customer purchased ticket #14
+[2024-12-03 10:47:39] Vendor added ticket #15
+[2024-12-03 10:47:39] Vendor thread exiting - Total tickets released.
+[2024-12-03 10:47:40] Customer purchased ticket #15
+[2024-12-03 10:47:40] Customer waiting for tickets...
+[2024-12-03 10:47:47] No additional tickets will be added.
+[2024-12-03 21:47:42] Ticketing System initiated!
+[2024-12-03 21:47:44] Vendor added ticket #1
+[2024-12-03 21:47:45] Vendor added ticket #2
+[2024-12-03 21:47:45] Customer purchased ticket #1
+[2024-12-03 21:47:46] Vendor added ticket #3
+[2024-12-03 21:47:46] Customer purchased ticket #2
+[2024-12-03 21:47:47] Customer purchased ticket #3
+[2024-12-03 21:47:47] Vendor added ticket #4
+[2024-12-03 21:47:48] Customer purchased ticket #4
+[2024-12-03 21:47:48] Customer waiting for tickets...
+[2024-12-03 21:47:48] Vendor added ticket #5
+[2024-12-03 21:47:49] Vendor added ticket #6
+[2024-12-03 21:47:49] Customer purchased ticket #5
+[2024-12-03 21:47:50] Vendor added ticket #7
+[2024-12-03 21:47:50] Customer purchased ticket #6
+[2024-12-03 21:47:51] Vendor added ticket #8
+[2024-12-03 21:47:51] Customer purchased ticket #7
+[2024-12-03 21:47:52] Vendor added ticket #9
+[2024-12-03 21:47:52] Customer purchased ticket #8
+[2024-12-03 21:47:53] Vendor added ticket #10
+[2024-12-03 21:47:53] Customer purchased ticket #9
+[2024-12-03 21:47:54] Vendor added ticket #11
+[2024-12-03 21:47:54] Customer purchased ticket #10
+[2024-12-03 21:47:55] Vendor added ticket #12
+[2024-12-03 21:47:55] Customer purchased ticket #11
+[2024-12-03 21:47:56] Vendor added ticket #13
+[2024-12-03 21:47:56] Customer purchased ticket #12
+[2024-12-03 21:47:57] Vendor added ticket #14
+[2024-12-03 21:47:57] Customer purchased ticket #13
+[2024-12-03 21:47:58] Vendor added ticket #15
+[2024-12-03 21:47:58] Vendor thread exiting - Total tickets released.
+[2024-12-03 21:47:58] Customer purchased ticket #14
+[2024-12-03 21:47:59] Customer purchased ticket #15
+[2024-12-03 21:47:59] Customer waiting for tickets...
+[2024-12-03 21:48:13] Stopping ticketing system...
+[2024-12-03 21:48:13] Customer thread interrupted.
+[2024-12-03 21:48:17] Ticketing System initiated!
+[2024-12-03 21:48:18] Vendor added ticket #1
+[2024-12-03 21:48:19] Vendor added ticket #2
+[2024-12-03 21:48:19] Customer purchased ticket #1
+[2024-12-03 21:48:20] Customer purchased ticket #2
+[2024-12-03 21:48:20] Vendor added ticket #3
+[2024-12-03 21:48:21] Customer purchased ticket #3
+[2024-12-03 21:48:21] Customer waiting for tickets...
+[2024-12-03 21:48:21] Vendor added ticket #4
+[2024-12-03 21:48:22] Customer purchased ticket #4
+[2024-12-03 21:48:22] Vendor added ticket #5
+[2024-12-03 21:48:23] Vendor added ticket #6
+[2024-12-03 21:48:23] Customer purchased ticket #5
+[2024-12-03 21:48:24] Customer purchased ticket #6
+[2024-12-03 21:48:24] Vendor added ticket #7
+[2024-12-03 21:48:25] Customer purchased ticket #7
+[2024-12-03 21:48:25] Vendor added ticket #8
+[2024-12-03 21:48:26] Vendor added ticket #9
+[2024-12-03 21:48:26] Customer purchased ticket #8
+[2024-12-03 21:48:27] Vendor added ticket #10
+[2024-12-03 21:48:27] Customer purchased ticket #9
+[2024-12-03 21:48:28] Vendor added ticket #11
+[2024-12-03 21:48:28] Customer purchased ticket #10
+[2024-12-03 21:48:29] Vendor added ticket #12
+[2024-12-03 21:48:29] Customer purchased ticket #11
+[2024-12-03 21:48:30] Vendor added ticket #13
+[2024-12-03 21:48:30] Customer purchased ticket #12
+[2024-12-03 21:48:31] Vendor added ticket #14
+[2024-12-03 21:48:31] Customer purchased ticket #13
+[2024-12-03 21:48:32] Vendor added ticket #15
+[2024-12-03 21:48:32] Vendor thread exiting - Total tickets released.
+[2024-12-03 21:48:32] Customer purchased ticket #14
+[2024-12-03 21:48:33] Customer purchased ticket #15
+[2024-12-03 21:48:33] Customer waiting for tickets...
+[2024-12-03 22:05:39] Vendor added ticket #1
+[2024-12-03 22:05:40] Customer purchased ticket #1
+[2024-12-03 22:05:40] Customer waiting for tickets...
+[2024-12-03 22:05:41] Vendor added ticket #2
+[2024-12-03 22:05:42] Customer purchased ticket #2
+[2024-12-03 22:05:42] Customer waiting for tickets...
+[2024-12-03 22:05:43] Vendor added ticket #3
+[2024-12-03 22:05:44] Customer purchased ticket #3
+[2024-12-03 22:05:44] Customer waiting for tickets...
+[2024-12-03 22:05:45] Vendor added ticket #4
+[2024-12-03 22:05:46] Customer purchased ticket #4
+[2024-12-03 22:05:46] Customer waiting for tickets...
+[2024-12-03 22:05:47] Vendor added ticket #5
+[2024-12-03 22:05:48] Customer purchased ticket #5
+[2024-12-03 22:05:48] Customer waiting for tickets...
+[2024-12-03 22:05:49] Vendor added ticket #6
+[2024-12-03 22:05:50] Customer purchased ticket #6
+[2024-12-03 22:05:50] Customer waiting for tickets...
+[2024-12-03 22:05:51] Vendor added ticket #7
+[2024-12-03 22:05:52] Customer purchased ticket #7
+[2024-12-03 22:05:52] Customer waiting for tickets...
+[2024-12-03 22:05:53] Vendor added ticket #8
+[2024-12-03 22:05:54] Customer purchased ticket #8
+[2024-12-03 22:05:54] Customer waiting for tickets...
+[2024-12-03 22:05:55] Vendor added ticket #9
+[2024-12-03 22:05:56] Customer purchased ticket #9
+[2024-12-03 22:05:56] Customer waiting for tickets...
+[2024-12-03 22:05:57] Vendor added ticket #10
+[2024-12-03 22:05:58] Customer purchased ticket #10
+[2024-12-03 22:05:58] Customer waiting for tickets...
+[2024-12-03 22:05:59] Vendor added ticket #11
+[2024-12-03 22:06:00] Customer purchased ticket #11
+[2024-12-03 22:06:00] Customer waiting for tickets...
+[2024-12-03 22:06:01] Vendor added ticket #12
+[2024-12-03 22:06:02] Customer purchased ticket #12
+[2024-12-03 22:06:02] Customer waiting for tickets...
+[2024-12-03 22:06:03] Vendor added ticket #13
+[2024-12-03 22:06:04] Customer purchased ticket #13
+[2024-12-03 22:06:04] Customer waiting for tickets...
+[2024-12-03 22:06:05] Vendor added ticket #14
+[2024-12-03 22:06:06] Customer purchased ticket #14
+[2024-12-03 22:06:06] Customer waiting for tickets...
+[2024-12-03 22:06:07] Vendor added ticket #15
+[2024-12-03 22:06:07] Vendor thread exiting - Total tickets released.
+[2024-12-03 22:06:08] Customer purchased ticket #15
+[2024-12-03 22:06:08] Customer waiting for tickets...
+[2024-12-03 22:08:02] Customer purchased ticket #16
+[2024-12-03 22:08:03] Customer purchased ticket #17
+[2024-12-03 22:08:04] Customer purchased ticket #18
+[2024-12-03 22:08:05] Customer purchased ticket #19
+[2024-12-03 22:08:06] Customer purchased ticket #20
+[2024-12-03 22:08:07] Customer purchased ticket #21
+[2024-12-03 22:08:08] Customer purchased ticket #22
+[2024-12-03 22:08:09] Customer purchased ticket #23
+[2024-12-03 22:08:10] Customer purchased ticket #24
+[2024-12-03 22:08:11] Customer purchased ticket #25
+[2024-12-03 22:08:11] Customer waiting for tickets...
+[2024-12-03 22:24:18] Vendor added ticket #1
+[2024-12-03 22:24:20] Vendor added ticket #2
+[2024-12-03 22:24:22] Vendor added ticket #3
+[2024-12-03 22:24:24] Vendor added ticket #4
+[2024-12-03 22:24:26] Vendor added ticket #5
+[2024-12-03 22:24:28] Vendor added ticket #6
+[2024-12-03 22:24:30] Vendor added ticket #7
+[2024-12-03 22:24:32] Vendor added ticket #8
+[2024-12-03 22:24:34] Vendor added ticket #9
+[2024-12-03 22:24:36] Vendor added ticket #10
+[2024-12-03 22:24:38] Vendor added ticket #11
+[2024-12-03 22:24:40] Vendor added ticket #12
+[2024-12-03 22:24:42] Vendor added ticket #13
+[2024-12-03 22:24:44] Vendor added ticket #14
+[2024-12-03 22:24:46] Vendor added ticket #15
+[2024-12-03 22:24:46] Vendor thread exiting - Total tickets released.
+[2024-12-03 22:25:41] Vendor added ticket #1
+[2024-12-03 22:25:43] Vendor added ticket #2
+[2024-12-03 22:25:45] Vendor added ticket #3
+[2024-12-03 22:25:47] Vendor added ticket #4
+[2024-12-03 22:25:49] Vendor added ticket #5
+[2024-12-03 22:25:51] Vendor added ticket #6
+[2024-12-03 22:25:53] Vendor added ticket #7
+[2024-12-03 22:25:55] Vendor added ticket #8
+[2024-12-03 22:25:57] Vendor added ticket #9
+[2024-12-03 22:25:59] Vendor added ticket #10
+[2024-12-03 22:26:01] Vendor added ticket #11
+[2024-12-03 22:26:03] Vendor added ticket #12
+[2024-12-03 22:26:05] Vendor added ticket #13
+[2024-12-03 22:26:07] Vendor added ticket #14
+[2024-12-03 22:26:09] Vendor added ticket #15
+[2024-12-03 22:26:09] Vendor thread exiting - Total tickets released.
+[2024-12-03 22:41:19] Vendor added ticket #1
+[2024-12-03 22:41:21] Vendor added ticket #2
+[2024-12-03 22:41:23] Vendor added ticket #3
+[2024-12-03 22:41:25] Vendor added ticket #4
+[2024-12-03 22:41:27] Vendor added ticket #5
+[2024-12-03 22:41:29] Vendor added ticket #6
+[2024-12-03 22:41:31] Vendor added ticket #7
+[2024-12-03 22:41:33] Vendor added ticket #8
+[2024-12-03 22:41:35] Vendor added ticket #9
+[2024-12-03 22:41:37] Vendor added ticket #10
+[2024-12-03 22:41:39] Vendor added ticket #11
+[2024-12-03 22:41:41] Vendor added ticket #12
+[2024-12-03 22:41:43] Vendor added ticket #13
+[2024-12-03 22:41:45] Vendor added ticket #14
+[2024-12-03 22:41:48] Vendor added ticket #15
+[2024-12-03 22:41:48] Vendor thread exiting - Total tickets released.
+[2024-12-03 22:49:11] Vendor added ticket #1
+[2024-12-03 22:49:13] Vendor added ticket #2
+[2024-12-03 22:49:15] Vendor added ticket #3
+[2024-12-03 22:49:17] Vendor added ticket #4
+[2024-12-03 22:49:19] Vendor added ticket #5
+[2024-12-03 22:49:21] Vendor added ticket #6
+[2024-12-03 22:49:23] Vendor added ticket #7
+[2024-12-03 22:49:25] Vendor added ticket #8
+[2024-12-03 22:49:27] Vendor added ticket #9
+[2024-12-03 22:49:29] Vendor added ticket #10
+[2024-12-03 22:49:31] Vendor added ticket #11
+[2024-12-03 22:49:33] Vendor added ticket #12
+[2024-12-03 22:49:35] Vendor added ticket #13
+[2024-12-03 22:49:37] Vendor added ticket #14
+[2024-12-03 22:49:39] Vendor added ticket #15
+[2024-12-03 22:49:39] Vendor thread exiting - Total tickets released.
+[2024-12-03 22:55:00] Vendor added ticket #1
+[2024-12-03 22:55:02] Vendor added ticket #2
+[2024-12-03 22:55:04] Vendor added ticket #3
+[2024-12-03 22:55:06] Vendor added ticket #4
+[2024-12-03 22:55:08] Vendor added ticket #5
+[2024-12-03 22:55:10] Vendor added ticket #6
+[2024-12-03 22:55:12] Vendor added ticket #7
+[2024-12-03 22:55:14] Vendor added ticket #8
+[2024-12-03 22:55:16] Vendor added ticket #9
+[2024-12-03 22:55:18] Vendor added ticket #10
+[2024-12-03 22:55:20] Vendor added ticket #11
+[2024-12-03 22:55:22] Vendor added ticket #12
+[2024-12-03 22:55:24] Vendor added ticket #13
+[2024-12-03 22:55:26] Vendor added ticket #14
+[2024-12-03 22:55:28] Vendor added ticket #15
+[2024-12-03 22:55:28] Vendor thread exiting - Total tickets released.
+[2024-12-03 22:56:51] Vendor added ticket #1
+[2024-12-03 22:56:53] Vendor added ticket #2
+[2024-12-03 22:56:55] Vendor added ticket #3
+[2024-12-03 22:56:57] Vendor added ticket #4
+[2024-12-03 22:56:59] Vendor added ticket #5
+[2024-12-03 22:57:01] Vendor added ticket #6
+[2024-12-03 22:57:03] Vendor added ticket #7
+[2024-12-03 22:57:05] Vendor added ticket #8
+[2024-12-03 22:57:07] Vendor added ticket #9
+[2024-12-03 22:57:09] Vendor added ticket #10
+[2024-12-03 22:57:11] Vendor added ticket #11
+[2024-12-03 22:57:13] Vendor added ticket #12
+[2024-12-03 22:57:15] Vendor added ticket #13
+[2024-12-03 22:57:17] Vendor added ticket #14
+[2024-12-03 22:57:19] Vendor added ticket #15
+[2024-12-03 22:57:19] Vendor thread exiting - Total tickets released.
+[2024-12-03 23:19:13] Vendor added ticket #1
+[2024-12-03 23:19:15] Vendor added ticket #2
+[2024-12-03 23:19:17] Vendor added ticket #3
+[2024-12-03 23:19:19] Vendor added ticket #4
+[2024-12-03 23:19:21] Vendor added ticket #5
+[2024-12-03 23:19:21] Vendor thread exiting - Total tickets released.
+[2024-12-03 23:19:56] Vendor added ticket #1
+[2024-12-03 23:19:58] Vendor added ticket #2
+[2024-12-03 23:20:00] Vendor added ticket #3
+[2024-12-03 23:20:02] Vendor added ticket #4
+[2024-12-03 23:20:04] Vendor added ticket #5
+[2024-12-03 23:20:04] Vendor thread exiting - Total tickets released.
+[2024-12-04 12:35:46] Vendor added ticket #1
+[2024-12-04 12:35:48] Vendor added ticket #2
+[2024-12-04 12:35:50] Vendor added ticket #3
+[2024-12-04 12:35:52] Vendor added ticket #4
+[2024-12-04 12:35:54] Vendor added ticket #5
+[2024-12-04 12:35:54] Vendor thread exiting - Total tickets released.
+[2024-12-04 12:38:42] Vendor added ticket #1
+[2024-12-04 12:38:44] Vendor added ticket #2
+[2024-12-04 12:38:46] Vendor added ticket #3
+[2024-12-04 12:38:48] Vendor added ticket #4
+[2024-12-04 12:38:50] Vendor added ticket #5
+[2024-12-04 12:38:50] Vendor thread exiting - Total tickets released.
+[2024-12-04 12:43:15] Vendor added ticket #1
+[2024-12-04 12:43:17] Vendor added ticket #2
+[2024-12-04 12:43:19] Vendor added ticket #3
+[2024-12-04 12:43:21] Vendor added ticket #4
+[2024-12-04 12:43:23] Vendor added ticket #5
+[2024-12-04 12:43:23] Vendor thread exiting - Total tickets released.
+[2024-12-04 12:46:10] Vendor added ticket #1
+[2024-12-04 12:46:12] Vendor added ticket #2
+[2024-12-04 12:46:14] Vendor added ticket #3
+[2024-12-04 12:46:16] Vendor added ticket #4
+[2024-12-04 12:46:18] Vendor added ticket #5
+[2024-12-04 12:46:18] Vendor thread exiting - Total tickets released.
+[2024-12-04 12:49:01] Vendor added ticket #1
+[2024-12-04 12:49:03] Vendor added ticket #2
+[2024-12-04 12:49:05] Vendor added ticket #3
+[2024-12-04 12:49:07] Vendor added ticket #4
+[2024-12-04 12:49:09] Vendor added ticket #5
+[2024-12-04 12:49:09] Vendor thread exiting - Total tickets released.
+[2024-12-04 12:53:24] Vendor added ticket #1
+[2024-12-04 12:53:26] Vendor added ticket #2
+[2024-12-04 12:53:28] Vendor added ticket #3
+[2024-12-04 12:53:30] Vendor added ticket #4
+[2024-12-04 12:53:32] Vendor added ticket #5
+[2024-12-04 12:53:32] Vendor thread exiting - Total tickets released.
+[2024-12-04 13:46:56] Vendor added ticket #1
+[2024-12-04 13:46:58] Vendor added ticket #2
+[2024-12-04 13:47:00] Vendor added ticket #3
+[2024-12-04 13:47:00] Vendor thread exiting - Total tickets released.
+[2024-12-04 13:51:47] Vendor added ticket #1
+[2024-12-04 13:51:49] Vendor added ticket #2
+[2024-12-04 13:51:51] Vendor added ticket #3
+[2024-12-04 13:51:51] Vendor thread exiting - Total tickets released.
+[2024-12-04 13:55:32] Vendor added ticket #1
+[2024-12-04 13:55:34] Vendor added ticket #2
+[2024-12-04 13:55:36] Vendor added ticket #3
+[2024-12-04 13:55:36] Vendor thread exiting - Total tickets released.
+[2024-12-04 14:02:00] Vendor added ticket #1
+[2024-12-04 14:02:02] Vendor added ticket #2
+[2024-12-04 14:02:04] Vendor added ticket #3
+[2024-12-04 14:02:04] Vendor thread exiting - Total tickets released.
+[2024-12-04 14:06:35] Vendor added ticket #1
+[2024-12-04 14:06:37] Vendor added ticket #1
+[2024-12-04 14:06:39] Vendor added ticket #1
+[2024-12-04 14:06:39] Vendor thread exiting - Total tickets released.
+[2024-12-04 14:06:46] Vendor added ticket #1
+[2024-12-04 14:06:48] Vendor added ticket #1
+[2024-12-04 14:06:50] Vendor added ticket #1
+[2024-12-04 14:06:52] Vendor added ticket #1
+[2024-12-04 14:06:54] Vendor added ticket #1
+[2024-12-04 14:06:54] Vendor thread exiting - Total tickets released.
+[2024-12-04 14:09:08] Vendor thread exiting - Total tickets released.
+[2024-12-04 14:09:36] Vendor thread exiting - Total tickets released.
+[2024-12-04 14:10:23] Vendor added ticket #1
+[2024-12-04 14:10:25] Vendor added ticket #1
+[2024-12-04 14:10:27] Vendor added ticket #1
+[2024-12-04 14:10:27] Vendor thread exiting - Total tickets released.
+[2024-12-04 14:10:34] Vendor added ticket #1
+[2024-12-04 14:10:36] Vendor added ticket #1
+[2024-12-04 14:10:38] Vendor added ticket #1
+[2024-12-04 14:10:40] Vendor added ticket #1
+[2024-12-04 14:10:42] Vendor added ticket #1
+[2024-12-04 14:10:42] Vendor thread exiting - Total tickets released.
+[2024-12-04 14:13:01] Vendor added ticket #1
+[2024-12-04 14:13:03] Vendor added ticket #1
+[2024-12-04 14:13:05] Vendor added ticket #1
+[2024-12-04 14:13:05] Vendor thread exiting - Total tickets released.
+[2024-12-04 14:13:15] Vendor added ticket #1
+[2024-12-04 14:13:17] Vendor added ticket #1
+[2024-12-04 14:13:19] Vendor added ticket #1
+[2024-12-04 14:13:21] Vendor added ticket #1
+[2024-12-04 14:16:40] Vendor added ticket #4
+[2024-12-04 14:16:42] Vendor added ticket #5
+[2024-12-04 14:16:44] Vendor added ticket #6
+[2024-12-04 14:16:46] Vendor added ticket #7
+[2024-12-04 14:16:48] Vendor added ticket #8
+[2024-12-04 14:16:50] Vendor added ticket #9
+[2024-12-04 14:16:52] Vendor added ticket #10
+[2024-12-04 14:16:54] Vendor added ticket #11
+[2024-12-04 14:16:56] Vendor added ticket #12
+[2024-12-04 14:16:58] Vendor added ticket #13
+[2024-12-04 14:17:00] Vendor added ticket #14
+[2024-12-04 14:17:27] Vendor added ticket #1
+[2024-12-04 14:17:30] Vendor added ticket #1
+[2024-12-04 14:17:32] Vendor added ticket #1
+[2024-12-04 14:17:32] Vendor thread exiting - Total tickets released.
+[2024-12-04 14:17:59] Vendor added ticket #1
+[2024-12-04 14:18:01] Vendor added ticket #1
+[2024-12-04 14:18:03] Vendor added ticket #1
+[2024-12-04 14:18:03] Vendor thread exiting - Total tickets released.
+[2024-12-04 14:18:50] Vendor added ticket #1
+[2024-12-04 14:18:52] Vendor added ticket #1
+[2024-12-04 14:18:54] Vendor added ticket #1
+[2024-12-04 14:18:54] Vendor thread exiting - Total tickets released.
+[2024-12-04 14:19:27] Vendor added ticket #1
+[2024-12-04 14:19:29] Vendor added ticket #1
+[2024-12-04 14:19:31] Vendor added ticket #1
+[2024-12-04 14:19:31] Vendor thread exiting - Total tickets released.
+[2024-12-04 14:20:39] Vendor added ticket #1
+[2024-12-04 14:20:41] Vendor added ticket #1
+[2024-12-04 14:20:43] Vendor added ticket #1
+[2024-12-04 14:20:43] Vendor thread exiting - Total tickets released.
+[2024-12-04 14:20:53] Vendor added ticket #1
+[2024-12-04 14:20:55] Vendor added ticket #1
+[2024-12-04 14:20:57] Vendor added ticket #1
+[2024-12-04 14:20:59] Vendor added ticket #1
+[2024-12-04 14:21:01] Vendor added ticket #1
+[2024-12-04 14:21:01] Vendor thread exiting - Total tickets released.
+[2024-12-04 22:05:38] Vendor added ticket #1
+[2024-12-04 22:05:40] Vendor added ticket #1
+[2024-12-04 22:05:42] Vendor added ticket #1
+[2024-12-04 22:05:42] Vendor thread exiting - Total tickets released.
+[2024-12-04 22:06:33] Vendor added ticket #1
+[2024-12-04 22:06:35] Vendor added ticket #1
+[2024-12-04 22:06:37] Vendor added ticket #1
+[2024-12-04 22:06:37] Vendor thread exiting - Total tickets released.
+[2024-12-04 22:06:46] Vendor added ticket #1
+[2024-12-04 22:06:48] Vendor added ticket #1
+[2024-12-04 22:06:50] Vendor added ticket #1
+[2024-12-04 22:06:52] Vendor added ticket #1

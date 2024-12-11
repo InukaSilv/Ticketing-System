@@ -57,7 +57,6 @@ public class SimulationService {
         }
     }
 
-
     public void startSimulation(Event event) {
         if (simulationThreads.containsKey(event.getId())) {
             throw new IllegalStateException("Simulation is already running for this event!");

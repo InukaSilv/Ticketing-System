@@ -1,0 +1,4 @@
+totalTickets=10
+ticketReleaseRate=1
+customerBuyRate=1
+maxTicketCapacity=20
