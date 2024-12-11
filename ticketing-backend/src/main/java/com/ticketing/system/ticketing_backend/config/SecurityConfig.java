@@ -14,28 +14,16 @@ import org.springframework.security.web.SecurityFilterChain;
 public class SecurityConfig {
 
     @Bean
+    public PasswordEncoder passwordEncoder() {
+        return new BCryptPasswordEncoder(); // Define the bean
+    }
+
+    @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         http
-                .csrf(csrf -> csrf.disable()) // Disable CSRF for testing purposes
+                .csrf(csrf -> csrf.disable())
                 .authorizeHttpRequests(auth -> auth
-                        .anyRequest().authenticated() // Require authentication for all requests
-                )
-                .httpBasic(httpBasic -> {}); // Use the new functional style for HTTP Basic authentication
-
+                        .anyRequest().permitAll()); // Allow all requests without authentication
         return http.build();
-    }
-
-    @Bean
-    public InMemoryUserDetailsManager userDetailsService() {
-        UserDetails user = User.withUsername("admin") // Set fixed username
-                .password(passwordEncoder().encode("password")) // Set fixed password
-                .roles("USER") // Assign a role
-                .build();
-        return new InMemoryUserDetailsManager(user);
-    }
-
-    @Bean
-    public PasswordEncoder passwordEncoder() {
-        return new BCryptPasswordEncoder(); // Use BCrypt for secure password hashing
     }
 }

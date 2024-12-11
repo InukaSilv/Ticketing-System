@@ -42,6 +42,7 @@ public class Vendor implements Runnable {
                         event.getReleasedTicketQueue().notifyAll(); // Notify customers about the released ticket
                     }
                 }
+
                 Thread.sleep(releaseRate * 1000L); // Simulate release delay
             }
         } catch (InterruptedException e) {
@@ -50,4 +51,5 @@ public class Vendor implements Runnable {
             Thread.currentThread().interrupt();
         }
     }
+
 }

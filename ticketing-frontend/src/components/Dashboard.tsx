@@ -8,7 +8,6 @@ import { Client } from '@stomp/stompjs';
 import SockJS from 'sockjs-client';
 
 
-
 const Dashboard: React.FC = () => {
   const [showModal, setShowModal] = useState(false);
   const [selectedEvent, setSelectedEvent] = useState<string | null>(null);
@@ -26,30 +25,32 @@ const Dashboard: React.FC = () => {
   };
 
   useEffect(() => {
+    if (!selectedEvent) return;
+    const selectedEventData = events.find((event) => event.eventName === selectedEvent);
+    if (!selectedEventData || !selectedEventData.id) return;
+
     const client = new Client({
-      brokerURL: "ws://localhost:8080/ws",
-      webSocketFactory: () => new SockJS("http://localhost:8080/ws"),
-      debug: (str) => console.log(str),
-      reconnectDelay: 5000,
+        brokerURL: "ws://localhost:8080/ws",
+        webSocketFactory: () => new SockJS("http://localhost:8080/ws"),
+        debug: (str) => console.log(str),
+        reconnectDelay: 5000,
     });
-  
+
     client.onConnect = () => {
-      const selectedEventData = events.find((event) => event.eventName === selectedEvent);
-      if (selectedEventData && selectedEventData.id) {
         console.log(`Subscribing to logs for event ID: ${selectedEventData.id}`);
         client.subscribe(`/topic/logs/${selectedEventData.id}`, (message) => {
-          console.log("Received log from WebSocket:", message.body);
-          setLogs((prevLogs) => [...prevLogs, message.body]); // Append new log
+            console.log("Received log from WebSocket:", message.body);
+            setLogs((prevLogs) => [...prevLogs, message.body]);
         });
-      }
     };
-  
+
     client.activate();
-  
+
     return () => {
-      client.deactivate();
+        client.deactivate();
     };
-  }, [selectedEvent, events]);
+}, [selectedEvent, events]);
+
   
   
 
@@ -191,7 +192,7 @@ const Dashboard: React.FC = () => {
       alert("Invalid event selected!");
       return;
     }
-  
+
     try {
       const response = await fetch(`${API_BASE_URL}/simulation/start/${selectedEventData.id}`, {
         method: "POST",
@@ -243,6 +244,7 @@ const Dashboard: React.FC = () => {
     setEvents(updatedEvents);
     if (selectedEvent === eventName) {
       setSelectedEvent(null);
+      setLogs([]);
     }
   };
 

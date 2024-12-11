@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.ticketing.system.ticketing_backend.TicketingBackendApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.025 s -- in com.ticketing.system.ticketing_backend.TicketingBackendApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.009 s -- in com.ticketing.system.ticketing_backend.TicketingBackendApplicationTests

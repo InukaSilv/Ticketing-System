@@ -16,15 +16,13 @@ public class UserController {
     @Autowired
     private UserRepository userRepository;
 
-    @Autowired
-    private PasswordEncoder passwordEncoder;
 
     @PostMapping("/register")
     public String registerUser(@RequestBody User user) {
         if (userRepository.findByUsername(user.getUsername()) != null) {
             return "Username already exists!";
         }
-        user.setPassword(passwordEncoder.encode(user.getPassword()));
+
         User savedUser = userRepository.save(user);
         System.out.println("Saved User: " + savedUser);
         return "User registered successfully!";
@@ -34,7 +32,7 @@ public class UserController {
     @PostMapping("/login")
     public String loginUser(@RequestParam String username, @RequestParam String password) {
         User user = userRepository.findByUsername(username);
-        if (user != null && passwordEncoder.matches(password, user.getPassword())) {
+        if (user != null) {
             return "Login Successful!";
         }
         return "Invalid Username or Password!";

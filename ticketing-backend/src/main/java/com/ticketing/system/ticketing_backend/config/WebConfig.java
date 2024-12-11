@@ -12,11 +12,12 @@ public class WebConfig {
         return new WebMvcConfigurer() {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
-                registry.addMapping("/**") // Applies to all endpoints
-                        .allowedOrigins("http://localhost:5173") // Frontend's URL
-                        .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS") // Allowed HTTP methods
-                        .allowedHeaders("*") // Allow all headers
-                        .allowCredentials(true); // Support cookies/authentication headers
+                registry.addMapping("/**")
+                        .allowedOrigins("http://localhost:5173") // Frontend origin
+                        .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS") // Ensure OPTIONS is included
+                        .allowedHeaders("*")
+                        .allowCredentials(true)
+                        .maxAge(3600); // Cache preflight response for 1 hour
             }
         };
     }

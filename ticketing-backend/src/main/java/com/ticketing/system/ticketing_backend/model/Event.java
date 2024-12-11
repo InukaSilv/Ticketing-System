@@ -1,25 +1,36 @@
 package com.ticketing.system.ticketing_backend.model;
 
+import jakarta.persistence.*;
 import com.fasterxml.jackson.annotation.JsonProperty;
-
 import java.util.ArrayList;
 import java.util.List;
 
+@Entity
+@Table(name = "events") // Table name in the database
 public class Event {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @Column(nullable = false)
     @JsonProperty("eventName") // Map JSON "eventName" to "name"
     private String name;
 
+    @Transient
     private List<Ticket> ticketPool = new ArrayList<>();
+
+    @Transient
     private List<Ticket> releasedTicketQueue = new ArrayList<>();
 
+    @Column(nullable = false)
     private int maxCapacity;
 
-    @JsonProperty("customerRate") // Map JSON "customerRate" to "buyingRate"
+    @Column(nullable = false)
+    @JsonProperty("customerRate")
     private int buyingRate;
 
-    @JsonProperty("vendorRate") // Map JSON "vendorRate" to "releaseRate"
+    @Column(nullable = false)
+    @JsonProperty("vendorRate")
     private int releaseRate;
 
     // Getters and Setters

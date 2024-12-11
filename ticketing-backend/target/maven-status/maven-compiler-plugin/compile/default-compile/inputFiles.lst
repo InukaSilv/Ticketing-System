@@ -1,3 +1,5 @@
+C:\Users\silva\Desktop\IIT\OOP CW\ticketing-backend\src\main\java\com\ticketing\system\ticketing_backend\config\SecurityConfig.java
+C:\Users\silva\Desktop\IIT\OOP CW\ticketing-backend\src\main\java\com\ticketing\system\ticketing_backend\config\WebConfig.java
 C:\Users\silva\Desktop\IIT\OOP CW\ticketing-backend\src\main\java\com\ticketing\system\ticketing_backend\config\WebSocketConfig.java
 C:\Users\silva\Desktop\IIT\OOP CW\ticketing-backend\src\main\java\com\ticketing\system\ticketing_backend\controller\EventController.java
 C:\Users\silva\Desktop\IIT\OOP CW\ticketing-backend\src\main\java\com\ticketing\system\ticketing_backend\controller\SimulationController.java
@@ -6,6 +8,7 @@ C:\Users\silva\Desktop\IIT\OOP CW\ticketing-backend\src\main\java\com\ticketing\
 C:\Users\silva\Desktop\IIT\OOP CW\ticketing-backend\src\main\java\com\ticketing\system\ticketing_backend\model\Event.java
 C:\Users\silva\Desktop\IIT\OOP CW\ticketing-backend\src\main\java\com\ticketing\system\ticketing_backend\model\Ticket.java
 C:\Users\silva\Desktop\IIT\OOP CW\ticketing-backend\src\main\java\com\ticketing\system\ticketing_backend\model\User.java
+C:\Users\silva\Desktop\IIT\OOP CW\ticketing-backend\src\main\java\com\ticketing\system\ticketing_backend\repository\EventRepository.java
 C:\Users\silva\Desktop\IIT\OOP CW\ticketing-backend\src\main\java\com\ticketing\system\ticketing_backend\repository\TicketRepository.java
 C:\Users\silva\Desktop\IIT\OOP CW\ticketing-backend\src\main\java\com\ticketing\system\ticketing_backend\repository\UserRepository.java
 C:\Users\silva\Desktop\IIT\OOP CW\ticketing-backend\src\main\java\com\ticketing\system\ticketing_backend\service\Customer.java
