@@ -9,34 +9,54 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+/**
+ * Controller for managing events and tickets.
+ * Provides endpoints to create events, add tickets, and retrieve tickets.
+ */
 @RestController
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "http://localhost:5173") // Allow requests from frontend
 @RequestMapping("/api/event")
 public class EventController {
     private final SimulationService simulationService;
 
-    // Inject SimulationService in the constructor
+    /**
+     * Constructor to inject SimulationService.
+     * @param simulationService service to manage event data
+     */
     public EventController(SimulationService simulationService) {
         this.simulationService = simulationService;
     }
 
-    // Create a new event
+    /**
+     * Creates a new event and assigns it a unique ID.
+     * @param newEvent the event to create
+     * @return the created event
+     */
     @PostMapping("/create")
     public Event createEvent(@RequestBody Event newEvent) {
-        newEvent.setId(simulationService.generateEventId()); // Use centralized ID generator
-        simulationService.saveEvent(newEvent); // Save directly in SimulationService storage
+        newEvent.setId(simulationService.generateEventId()); // Generate event ID
+        simulationService.saveEvent(newEvent); // Save event
         return newEvent;
     }
 
-    // Get all events
+    /**
+     * Retrieves all events.
+     * @return a list of all events
+     */
     @GetMapping
     public List<Event> getAllEvents() {
-        return simulationService.listEvents(); // Fetch from SimulationService storage
+        return simulationService.listEvents(); // Get events list
     }
 
+    /**
+     * Adds a specified number of tickets to an event.
+     * @param eventId the ID of the event to add tickets to
+     * @param count the number of tickets to add
+     * @return a response indicating the success or failure of the operation
+     */
     @PostMapping("/{eventId}/tickets/add")
     public ResponseEntity<String> addTickets(@PathVariable Long eventId, @RequestParam int count) {
-        Event event = simulationService.findEventById(eventId); // Fetch event details
+        Event event = simulationService.findEventById(eventId); // Get event by ID
         if (event == null) {
             return ResponseEntity.status(HttpStatus.NOT_FOUND).body("Event not found!");
         }
@@ -48,30 +68,33 @@ public class EventController {
                         .body("Cannot add tickets. Max capacity exceeded!");
             }
 
-            // Add tickets with proper IDs
+            // Add new tickets
             for (int i = 0; i < count; i++) {
                 Ticket newTicket = new Ticket();
-                newTicket.setId(simulationService.generateTicketId());
+                newTicket.setId(simulationService.generateTicketId()); // Generate ticket ID
                 newTicket.setStatus("Available");
                 event.getTicketPool().add(newTicket);
             }
 
-            // Notify waiting Vendor/Customer threads
-            event.getTicketPool().notifyAll();
+            event.getTicketPool().notifyAll(); // Notify threads
         }
 
         return ResponseEntity.ok(count + " tickets added successfully!");
     }
 
-    // Get all tickets for an event
+    /**
+     * Retrieves all tickets for a specific event.
+     * @param eventId the ID of the event to fetch tickets for
+     * @return a list of ticket details
+     */
     @GetMapping("/{eventId}/tickets")
     public ResponseEntity<List<String>> getTickets(@PathVariable Long eventId) {
-        Event event = simulationService.findEventById(eventId); // Fetch from centralized storage
+        Event event = simulationService.findEventById(eventId); // Get event by ID
         if (event == null) {
             return ResponseEntity.status(HttpStatus.NOT_FOUND).body(List.of("Event not found!"));
         }
 
-        // Create a list of ticket details from the ticket pool
+        // List ticket details
         List<String> ticketDetails = event.getTicketPool().stream()
                 .map(ticket -> "Ticket ID: " + ticket.getId() + ", Status: " + ticket.getStatus())
                 .toList();

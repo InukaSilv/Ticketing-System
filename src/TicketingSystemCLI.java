@@ -1,3 +1,4 @@
+import java.io.IOException;
 import java.util.Scanner;
 
 public class TicketingSystemCLI {
@@ -6,6 +7,33 @@ public class TicketingSystemCLI {
         Configuration config = null;
 
         System.out.println("Welcome to the Real-time Ticketing System!");
+        System.out.println("Load GUI? (Y / N)");
+        String gui = scanner.nextLine().toLowerCase();
+        while (true) {
+            if ("y".equals(gui)) {
+                System.out.println("Starting the frontend and backend...");
+                try {
+                    // Run the batch file for starting the frontend and backend
+                    ProcessBuilder processBuilder = new ProcessBuilder("cmd", "/c", "start", "run.bat");
+                    processBuilder.directory(new java.io.File("C:\\Users\\silva\\Desktop\\IIT\\OOP CW"));
+                    processBuilder.start();
+
+                    System.out.println("Batch file executed. GUI and backend should be running.");
+                    break; // Exit the loop after executing the batch file
+
+                } catch (IOException e) {
+                    System.out.println("Error starting the batch file: " + e.getMessage());
+                }
+
+            } else if ("n".equals(gui)) {
+                break; // Exit the loop for non-GUI setup
+
+            } else {
+                System.out.println("Invalid input. Please enter 'y' / 'n'.");
+                gui = scanner.nextLine().toLowerCase();
+            }
+        }
+
         System.out.println("Would you like to load previous configuration settings? (Y/N): ");
         String choice = scanner.nextLine().toLowerCase();
 
